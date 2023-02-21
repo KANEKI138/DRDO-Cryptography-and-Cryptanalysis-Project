@@ -89,5 +89,5 @@ public class CaeserCipher {
     String recoveredMessage = Decrypt(encryptedMessage, key);
     System.out.println("The decrypted message is: " + recoveredMessage);
     
-  }
+  } 
 }  
