@@ -44,5 +44,5 @@ enc (c) = (c+k)mod26,
 where c is the plain character and k is the key. The decryption function needs to shift
 back the letters and, therefore, has the following representation:
 dec (c') = (c'-k)mod26,
-where c' is the encrypted character that needs to be decrypted and k is the key.
+where c' is the encrypted character that needs to be decrypted and k is the key. 
 
