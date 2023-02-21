@@ -1,3 +1,20 @@
+/*
+Caesar Cipher:
+
+The Caesar cipher is estimated to date back to the first century BC in the Roman
+Empire. Its name comes from the Roman Emperor Julius Caesar, who used this cipher
+to encrypt military messages and strategies [1], and it is estimated to be broken in about
+the fifth century AD. The Caesar cipher is a substitution cipher, in which each letter of
+the alphabet is moved a certain number of characters to the right. For example, if the
+established number is 5, then A will become F, B will become G, C will become H, etc.
+In this cipher, the key is represented by the number that the letters are shifted. Note that
+the key should be secret, known only by the sender (to encrypt the messages) and by the
+receiver (to decrypt the messages). The Caesar cipher is important because it is the basis
+for other classical ciphers, such as Vigenère. The Caesar cipher with key k = 13 is also
+known as Rot13.
+
+*/
+/* Implementation of Caesar Cipher */
 import java.util.Scanner;
  
 public class CaeserCipher {
